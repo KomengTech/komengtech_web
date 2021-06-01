@@ -28,7 +28,7 @@ Widget rightBarMenu() {
                 icon: FaIcon(FontAwesomeIcons.envelope)),
             const SizedBox(height: 20.0),
             IconButton(
-                onPressed: () => launch('https://bit.ly/34xmYX1'),
+                onPressed: () => launch('https://bit.ly/2TzxTgD'),
                 icon: FaIcon(FontAwesomeIcons.linkedin)),
             const SizedBox(height: 20.0),
             IconButton(

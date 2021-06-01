@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:komengtech_web/screens/widgets/body/large_body.dart';
 import 'widgets/ menu/bottomBarMenu.dart';
-import 'widgets/body/mainBody.dart';
+import 'widgets/body/main_body.dart';
 import 'widgets/ menu/rightBarMenu.dart';
 import 'widgets/body/small_body.dart';
 

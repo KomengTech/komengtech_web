@@ -14,13 +14,14 @@ Widget largeBody() {
         Positioned(
           top: 20,
           right: 70,
-          child: Stack(
-            children: [
-              CircleAvatar(
-                backgroundImage: AssetImage('assets/hafiz.png'),
-                radius: 250,
-              ),
-            ],
+          child: Container(
+            height: 500,
+            width: 500,
+            decoration: BoxDecoration(
+              shape: BoxShape.circle,
+              image: DecorationImage(
+                  image: AssetImage('assets/hafiz.png'), fit: BoxFit.cover),
+            ),
           ),
         ),
         Positioned(

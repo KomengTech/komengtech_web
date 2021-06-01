@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'topBody.dart';
+import 'top_body.dart';
 
 Widget mainBody({
   required Widget body,

@@ -12,9 +12,14 @@ Widget smallBody() {
     decoration: BoxDecoration(border: Border.all(color: Colors.white)),
     child: Column(
       children: [
-        CircleAvatar(
-          backgroundImage: AssetImage('assets/hafiz.png'),
-          radius: 150,
+        Container(
+          height: 250,
+          width: 250,
+          decoration: BoxDecoration(
+            shape: BoxShape.circle,
+            image: DecorationImage(
+                image: AssetImage('assets/hafiz.png'), fit: BoxFit.cover),
+          ),
         ),
         const SizedBox(height: 20),
         Text('HAFIZ',
@@ -111,7 +116,7 @@ Widget skillsWidget({
     children: [
       CircleAvatar(
         backgroundColor: Colors.white,
-        radius: 30.0,
+        radius: 25.0,
         child: Padding(
           padding: const EdgeInsets.all(5.0),
           child: Image.network(imgUrl),

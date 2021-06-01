@@ -6,6 +6,8 @@ The website focus on a one-page display that is responsive, and I design it so t
 
 I build the website using a StatelessWidget class
 
+![komengtech_mockup](https://user-images.githubusercontent.com/26598827/120305496-61ea5f00-c303-11eb-811f-c2a5499f692f.jpeg)
+
 ## Getting Started
 
 The .

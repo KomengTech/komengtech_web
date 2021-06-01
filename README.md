@@ -10,7 +10,7 @@ I build the whole **Responsive Website** using only **StatelessWidget Class** as
 
 ## Getting Started
 
-The magic behind building a **Responsive Website** is actually using the **LayoutBuilder()** and managing the different **constraints.maxWidth**. You can always add additional screen layout with differnet maxwidth parameters.
+The magic behind building a **Responsive Website** is actually using the **LayoutBuilder()** and managing the different **constraints.maxWidth**. You can always add additional screen layout with different maxwidth parameters.
 
 <pre lang="javascript"><code>
 home_screen.dart

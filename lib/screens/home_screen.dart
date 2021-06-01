@@ -12,9 +12,7 @@ class HomeScreen extends StatelessWidget {
     return Container(
       child: Row(
         children: [
-          mainBody(
-            body: largeBody(),
-          ),
+          mainBody(body: largeBody()),
           rightBarMenu(),
         ],
       ),
@@ -25,9 +23,7 @@ class HomeScreen extends StatelessWidget {
     return Container(
       child: Row(
         children: [
-          mainBody(
-            body: largeBody(),
-          ),
+          mainBody(body: largeBody()),
           rightBarMenu(),
         ],
       ),

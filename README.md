@@ -1,10 +1,14 @@
-# komengtech_web
+# KomengTech Website
 
-KomengTech Website
+This is my website that I build with **Flutter Web**, and deployed it on CloudFlare Pages.
+
+The website focus on a one-page display that is responsive, and I design it so that my profile picture will be a background picture for a moment when it overlap the text.
+
+I build the website using a StatelessWidget class
 
 ## Getting Started
 
-This project is a starting point for a Flutter application.
+The .
 
 A few resources to get you started if this is your first Flutter project:
 

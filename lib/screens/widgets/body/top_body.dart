@@ -6,7 +6,6 @@ Widget topBody() {
     padding: const EdgeInsets.all(20),
     decoration: BoxDecoration(border: Border.all(color: Colors.white)),
     child: FittedBox(
-      // fit: BoxFit.scaleDown,
       child: Text(
         'I\'M A DEVELOPER',
         style: TextStyle(

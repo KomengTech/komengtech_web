@@ -12,4 +12,17 @@ class ProjectModel {
     this.picture = picture;
     this.url = url;
   }
+
+  static List<ProjectModel> projects = [
+    ProjectModel(
+        title: 'Language GetX',
+        picture:
+            'https://images.pexels.com/photos/267669/pexels-photo-267669.jpeg',
+        url: 'https://bit.ly/3pdRhvu'),
+    ProjectModel(
+        title: 'Services GetX',
+        picture:
+            'https://images.pexels.com/photos/1054397/pexels-photo-1054397.jpeg',
+        url: 'https://bit.ly/3fW249p'),
+  ];
 }

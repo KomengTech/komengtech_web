@@ -1,11 +1,9 @@
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
-import 'package:komengtech_web/screens/home_screen.dart';
-import 'controllers/app_controller.dart';
+import 'screens/home_screen.dart';
 
 void main() {
   WidgetsFlutterBinding.ensureInitialized();
-  Get.put<AppController>(AppController());
   runApp(MyApp());
 }
 

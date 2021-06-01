@@ -1,11 +1,10 @@
 import 'package:flutter/material.dart';
 import 'package:font_awesome_flutter/font_awesome_flutter.dart';
-import 'package:get/get.dart';
-import 'package:komengtech_web/controllers/app_controller.dart';
 import 'package:url_launcher/url_launcher.dart';
+import '../../../models/project_model.dart';
+import '../../../models/skill_model.dart';
 
 Widget largeBody() {
-  final AppController appController = Get.find();
   return Container(
     width: double.infinity,
     decoration: BoxDecoration(border: Border.all(color: Colors.white)),
@@ -75,12 +74,12 @@ Widget largeBody() {
                         child: ListView.builder(
                           shrinkWrap: true,
                           scrollDirection: Axis.horizontal,
-                          itemCount: appController.skills.length,
+                          itemCount: SkillModel.skills.length,
                           itemBuilder: (context, index) => Padding(
                             padding: const EdgeInsets.only(right: 15),
                             child: skillsWidget(
-                              imgUrl: appController.skills[index].picture,
-                              text: appController.skills[index].title,
+                              imgUrl: SkillModel.skills[index].picture,
+                              text: SkillModel.skills[index].title,
                             ),
                           ),
                         ),
@@ -108,11 +107,11 @@ Widget largeBody() {
                         child: ListView.builder(
                           shrinkWrap: true,
                           scrollDirection: Axis.horizontal,
-                          itemCount: appController.projects.length,
+                          itemCount: ProjectModel.projects.length,
                           itemBuilder: (context, index) => projectWidget(
-                            picture: appController.projects[index].picture,
-                            url: appController.projects[index].url,
-                            title: appController.projects[index].title,
+                            picture: ProjectModel.projects[index].picture,
+                            url: ProjectModel.projects[index].url,
+                            title: ProjectModel.projects[index].title,
                           ),
                         ),
                       ),

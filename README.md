@@ -53,7 +53,7 @@ class HomeScreen extends StatelessWidget {
 </code></pre>
 ## Usage:
 
-Once you build your website got to your terminal and type:
+Once you build your website go to your terminal and type:
 <pre lang="javascript"><code>
 flutter build web --release
 </code></pre>
